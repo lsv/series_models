@@ -1,0 +1,32 @@
+{
+    "name": "series/models",
+    "description": "Models for series",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Aarhof",
+            "email": "martin.aarhof@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/collections": "~1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "satooshi/php-coveralls": "~0.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Series\\Models\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Series\\Models\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
